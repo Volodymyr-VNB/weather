@@ -79,7 +79,7 @@ async function win(){
     else 
         {console.log("==", getCity ,"==") };
      
-    let cityHttp =`http://api.openweathermap.org/data/2.5/weather?q=${getCity}&units=metric&lang=UA&APPID=5d066958a60d315387d9492393935c19`;
+    let cityHttp =`https://api.openweathermap.org/data/2.5/weather?q=${getCity}&units=metric&lang=UA&APPID=5d066958a60d315387d9492393935c19`;
     // http://api.openweathermap.org/data/2.5/forecast?q=${getCity}&units=metric&lang=UA&APPID=5d066958a60d315387d9492393935c19
     // http://api.openweathermap.org/data/3.0/onecall?q=хАРКІВ&units=metric&lang=UA&APPID=5d066958a60d315387d9492393935c19
     console.log("+++", cityHttp ,"==")
