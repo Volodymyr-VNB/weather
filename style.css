@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+p{
+    margin: 0px;
+}
+.icon{
+    width: 150px;
+    height: 150px;
+    background: url(http://openweathermap.org/img/w/10d.png) top /150px 150px no-repeat;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.weather{
+    width: 100% ;
+max-width: 1410px;
+background-color: rgb(53, 220, 253);
+display: flex;
+flex-direction: column;
+}
+.city {
+    width: 30px;
+    height: 30px;
+    background: url(./img/2969391_geolocation_gps_location_position_icon.svg) top /30px 30px no-repeat ;
+}
+.cityBlok {
+    display: flex;
+    width: 600px;
+    height: 20 0px;
+    flex-direction: row;
+    /* align-content: center; */
+    align-items: center;
+    margin: 20px;
+    gap: 50px;
+    justify-content: space-around;
+}
+h1{font-size: 16px;}
+.khmarno{text-align: center;}
+.termometr{
+    background: url(./img/653255_thermometre_cloud_data_forecast_rain_icon.png) top left /60px 60px  no-repeat;
+    width: 220px;
+    height: 60px;
+    
+
+}
+.row{
+    display: flex;
+    gap: 15px;
+    padding: 0 10px;
+}
+.vice{
+    background: url(./img/tusk.png) center left /50px 50px no-repeat;
+    width: 220px;
+}
+.vologist{
+    background: url(./img/vologist.png) center left /50px 50px no-repeat;
+    width: 150px;
+}
+.vidimost{
+    background: url(./img/vidimost.png) center left /50px 50px no-repeat;
+    width: 150px;
+}
+.line {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+}
+.wind{
+    background: url(./img/veter.png) center left /40px 40px no-repeat;
+    width: 200px;
+}
+.line2{
+    flex-direction: row;
+    margin: 20px;
+    gap: 100px;
+    width: 70%;
+}
+.client {
+    width: 250px;
+    flex-direction: row;
+    position: absolute;
+    margin: 20px;
+    left: 20px;
+}
+.button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(122, 225, 246);
+    border-radius: 5px ;
+    border: 1px solid;
+}
+.clientItem{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(32, 182, 212); 
+    border-radius: 5px ;
+    border: 1px solid;
+}
