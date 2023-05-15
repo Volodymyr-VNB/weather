@@ -102,7 +102,7 @@ win()
         h1.innerHTML =`${items.name} <br>  ${items.coord.lon}, ${items.coord.lat}  `;
         for (const iterator of items.weather) {
             p1.innerHTML = iterator.description; 
-            icon_bagr = "url(http://openweathermap.org/img/w/"+iterator.icon+".png)";
+            icon_bagr = "url(https://openweathermap.org/img/w/"+iterator.icon+".png)";
             div1.style.backgroundImage = icon_bagr;
         }
         p2.innerHTML = `${items.main.temp}&#176; `; 
